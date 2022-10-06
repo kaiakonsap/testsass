@@ -1,0 +1,22 @@
+@use "sass:math";
+body {
+  background-color: pink;
+}
+body h1 {
+  color: #fff;
+  border-bottom: 1px solid darkred;
+  background: DarkGray;
+  -webkit-box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  -moz-box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+  box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+}
+body h2 {
+  color: #fff;
+  border-bottom: 1px solid darkred;
+  background: #095909;
+  -webkit-box-shadow: 0 0 1px rgba(9, 89, 9, 0.25);
+  -moz-box-shadow: 0 0 1px rgba(9, 89, 9, 0.25);
+  box-shadow: 0 0 1px rgba(9, 89, 9, 0.25);
+}
+
+/*# sourceMappingURL=style.css.map */

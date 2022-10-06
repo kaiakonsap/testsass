@@ -1,0 +1,29 @@
+@use 'sass:math';
+
+$pink: pink;
+$red: darkred;
+$green: #095909;
+
+@mixin theme($theme: DarkGray)
+{
+    color: #fff;
+    border-bottom: 1px solid $red;
+    background: $theme;
+    -webkit-box-shadow: 0 0 1px rgba($theme, .25);
+       -moz-box-shadow: 0 0 1px rgba($theme, .25);
+            box-shadow: 0 0 1px rgba($theme, .25);
+}
+
+
+body
+{
+    background-color: $pink;
+    h1
+    {
+        @include theme;
+    }
+    h2
+    {
+        @include theme($theme: $green);
+    }
+}
