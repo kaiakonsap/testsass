@@ -1,6 +1,6 @@
 @use "sass:math";
 body {
-  background-color: pink;
+  background-color: #a6505f;
 }
 body h1 {
   color: #fff;
